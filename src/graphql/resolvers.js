@@ -51,7 +51,7 @@ export const resolvers = {
 
 			cache.writeQuery({
 				query: GET_CART_ITEMS,
-				DATA: { cartItems: newCartItems },
+				data: { cartItems: newCartItems },
 			});
 			return newCartItems;
 		},
